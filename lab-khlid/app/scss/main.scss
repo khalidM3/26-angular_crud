@@ -1,0 +1,6 @@
+@import './lib/header/header.scss';
+@import './lib/header/_reset.scss';
+@import '../component/landing/signup/_signup.scss';
+body {
+  background-color: $secondary-color;
+}

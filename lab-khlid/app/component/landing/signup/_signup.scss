@@ -1,0 +1,35 @@
+$space: 20px;
+$primary-color: #404040;
+$secondary-color: lightgrey;
+
+form {
+  display: block;
+  margin: $space auto;
+  width: 40%;
+  legend{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  input{
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin-top: $space;
+    font-size: 15px;
+    // margin:10px auto;
+    padding: 5px;
+    border-radius: 1px;
+    border: none;
+    // margin: auto;
+  }
+  button {
+    width: 30%;
+    height: 30px;
+    font-size: 15px;
+    margin-top: $space;
+    margin-left: 52%;
+    background-color: $primary-color;
+    color: $secondary-color;
+    border: none;
+  }
+}

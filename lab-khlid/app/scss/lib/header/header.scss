@@ -1,0 +1,28 @@
+header {
+  width: 100%;
+  height: 6vw;
+  background-color: black;
+  color: lightgrey;
+
+  h1 {
+    display: inline;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    // margin: 5% 10%;
+    margin: 5%;
+    padding: 10px;
+    font-weight: lighter;
+  }
+
+  ul{
+    margin-left: 10%;
+    padding-top: 5px;
+    
+  }
+  li{
+    display: inline-block;
+    &:last-child{
+     margin-left: 90%;
+    }
+  }
+}
